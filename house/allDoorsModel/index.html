@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>compressed</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link type="text/css" rel="stylesheet" href="main.css">
+	</head>
+
+	<body>
+      <div class="model" id="model">
+        <div class="navbar">
+          <p>Kies hier uw gewenste coating</p>
+        </div>
+        <ul class="list">
+          <li class="list-items" id="essential-list">Essential 25 &mu;</li>
+          <li class="list-items" id="hps-list">HPS 200 Ultra 200 &mu;</li>
+        </ul>
+        <div class="colors">
+          <h5>Essential 25 &mu;</h5>
+          <ul class="colors-list">
+            <li class="colors-list-items">
+              <div class="essential-colors" style="background-color: #F3DA0B;"></div>
+              <p class="color-name">RAL1002</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="essential-colors" style="background-color: #0bf317;"></div>
+              <p class="color-name">RAL1002</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="essential-colors" style="background-color: #f32e0b;"></div>
+              <p class="color-name">RAL1002</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="essential-colors" style="background-color: #490bf3;"></div>
+              <p class="color-name">RAL1002</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="colors">
+          <h5>HPS 200 Ultra 200 &mu;</h5>
+          <ul class="colors-list">
+            <li class="colors-list-items">
+              <div class="hps-colors" style="background-color: #F8F8F8;"></div>
+              <p class="color-name">Wit</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #D6D6CE;"></div>
+              <p class="color-name">Hamlet</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #BBB497;"></div>
+              <p class="color-name">Mushroom</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #e0d9d5;"></div>
+              <p class="color-name">Albatross</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #B9BCB3;"></div>
+              <p class="color-name">Goosewing Grey</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #45525B;"></div>
+              <p class="color-name">Merlin Grey</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #303030;"></div>
+              <p class="color-name">HPS Anthracite</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #333333;"></div>
+              <p class="color-name">Anthracite Mat</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #000000;"></div>
+              <p class="color-name">Black</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #833C26;"></div>
+              <p class="color-name">Terracotta</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #663333;"></div>
+              <p class="color-name">Burano</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #5C4138;"></div>
+              <p class="color-name">HPS Van Dyke Brown</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #005c75;"></div>
+              <p class="color-name">Ocean Blue</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #154261;"></div>
+              <p class="color-name">Sargasso</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #477745;"></div>
+              <p class="color-name">Heritage Green</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #4f5a32;"></div>
+              <p class="color-name">Olive Green</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #27473a;"></div>
+              <p class="color-name">Juniper Green</p>
+            </li>
+            <li  class="colors-list-items">
+              <div class="hps-colors" style="background-color: #B5D67B;"></div>
+              <p class="color-name">Moorland Green</p>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.colors').eq(1).hide();
+        $(".navbar").click(function(){
+          $(".list").slideToggle(200);
+        });
+        $('#essential-list').click(function(){
+          $('.colors').eq(0).show();
+          $('.colors').eq(1).hide();
+        });
+        $('#hps-list').click(function(){
+          $('.colors').eq(1).show();
+          $('.colors').eq(0).hide();
+        });
+      });
+
+      var rals = {
+            'RAL1002': '#d2aa6d',
+            'RAL1013': '#e3d9c6',
+            'RAL1015': '#e6d2b5',
+            'RAL1019': '#9E9764',
+            'RAL1021': '#F3DA0B',
+            'RAL2001': '#C93C20',
+            'RAL3000': '#AF2B1E',
+            'RAL3009': '#642424',
+            'RAL3020': '#CC0605',
+            'RAL5002': '#20214F',
+            'RAL5008': '#26252D',
+            'RAL5009': '#025669',
+            'RAL5010': '#0E294B',
+            'RAL5011': '#231A24',
+            'RAL5014': '#606E8C',
+            'RAL5015': '#2271B3',
+            'RAL5017': '#063971',
+            'RAL6003': '#424632',
+            'RAL6005': '#2F4538',
+            'RAL6009': '#31372B',
+            'RAL6011': '#587246',
+            'RAL6020': '#2E3A23',
+            'RAL6021': '#89AC76',
+            'RAL7006': '#6D6552',
+            'RAL7012': '#4E5754',
+            'RAL7015': '#434750',
+            'RAL7016': '#293133',
+            'RAL7021': '#23282B',
+            'RAL7022': '#332F2C',
+            'RAL7032': '#686C5E',
+            'RAL7035': '#D7D7D7',
+            'RAL7037': '#7D7F7D',
+            'RAL7042': '#8D948D',
+            'RAL8004': '#8E402A',
+            'RAL8011': '#5B3A29',
+            'RAL8012': '#592321',
+            'RAL8014': '#382C1E',
+            'RAL8019': '#403A3A',
+            'RAL8024': '#79553D',
+            'RAL8025': '#755C48',
+            'RAL9001': '#FDF4E3',
+            'RAL9002': '#E7EBDA',
+            'RAL9005': '#0A0A0A',
+            'RAL9006': '#A5A5A5',
+            'RAL9007': '#8F8F8F',
+            'RAL9010': '#FFFFFF',
+            'RAL9016': '#F6F6F6'
+            }
+
+            function getHex(ral) {
+                return rals["RAL" + ral]
+            }
+            //var essential = document.querySelectorAll(".colors-list");
+            var essential = document.querySelector(".colors-list");
+            for (var i = 1001; i < 9024; i++) {
+                var hex = getHex(i);
+                if (hex) {
+                    essential.innerHTML += '<li class="colors-list-items"><div class="essential-colors" style="background-color: ' + hex + '"></div><p class="color-name">RAL' + i + '</p></li>';
+  
+                }
+            }
+
+    </script>
+    <script type="module" src="./main.js"></script>
+	</body>
+</html>

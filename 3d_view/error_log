@@ -1,0 +1,4 @@
+[10-Sep-2020 12:08:15 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kb2hm3y8r4wm/public_html/levere/3d_view/index.php on line 10
+[10-Sep-2020 12:08:32 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kb2hm3y8r4wm/public_html/levere/3d_view/index.php on line 10
+[11-Sep-2020 11:03:05 UTC] PHP Notice:  Undefined index: Solution in /home/kb2hm3y8r4wm/public_html/levere/3d_view/design.php on line 51
+[11-Sep-2020 11:03:08 UTC] PHP Notice:  Undefined index: Solution in /home/kb2hm3y8r4wm/public_html/levere/3d_view/design.php on line 51

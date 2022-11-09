@@ -1,0 +1,265 @@
+      formdata : model,
+      house_length: length,
+      house_widht : width,
+      house_Gutter: Gutter,
+      house_Slope : Slope,
+      house_Ridge : Ridge,
+      house_roof : roof,
+      house_walls : walls,
+      house_roofstyle : roofstyle,
+      house_wallstyle : wallstyle,
+      doorHexColor : doorHexColor,
+      roofhexColor : roofhexColor,
+      wallcolor : hexcolor,
+      frontSectionalDoor1_is : frontSectionalDoor1,
+      frontSectionalDoor2_is : frontSectionalDoor2,
+      frontSectionalDoor3_is : frontSectionalDoor3,
+      frontSectionalDoor4_is : frontSectionalDoor4,
+      BackSectionalDoor1_is : BackSectionalDoor1,
+      BackSectionalDoor2_is : BackSectionalDoor2,
+      BackSectionalDoor3_is : BackSectionalDoor3,
+      BackSectionalDoor4_is : BackSectionalDoor4,
+      leftSectionalDoor1_is : leftSectionalDoor1,
+      leftSectionalDoor2_is : leftSectionalDoor2,
+      leftSectionalDoor3_is : leftSectionalDoor3,
+      leftSectionalDoor4_is : leftSectionalDoor4,
+      rightSectionalDoor1_is : rightSectionalDoor1,
+      rightSectionalDoor2_is : rightSectionalDoor2,
+      rightSectionalDoor3_is : rightSectionalDoor3,
+      rightSectionalDoor4_is : rightSectionalDoor4,
+      FrontWalkinDoor1PositionController : FrontWalkinDoor1PositionController,
+      FrontWalkinDoor2PositionController : FrontDoorWalkin2PositionController,
+      FrontWalkinDoor3PositionController : FrontDoorWalkin3PositionController,
+      FrontWalkinDoor4PositionController : FrontDoorWalkin4PositionController,
+      BackDoorWalkin1PositionController : BackDoorWalkin1PositionController,
+      BackDoorWalkin2PositionController : BackDoorWalkin2PositionController,
+      BackDoorWalkin3PositionController : BackDoorWalkin3PositionController,
+      BackDoorWalkin4PositionController : BackDoorWalkin4PositionController,
+      LeftDoorWalkin1PositionController : LeftDoorWalkin1PositionController,
+      LeftDoorWalkin2PositionController : LeftDoorWalkin2PositionController,
+      LeftDoorWalkin3PositionController : LeftDoorWalkin3PositionController,
+      LeftDoorWalkin4PositionController : LeftDoorWalkin4PositionController,
+      RightDoorWalkin1PositionController : RightDoorWalkin1PositionController,
+      RightDoorWalkin2PositionController : RightDoorWalkin2PositionController,
+      RightDoorWalkin3PositionController : RightDoorWalkin3PositionController,
+      RightDoorWalkin4PositionController : RightDoorWalkin4PositionController,
+
+
+
+
+
+
+      	echo $_POST['frontSectionalDoor1_is'];
+	echo $_POST['frontSectionalDoor2_is'];
+	echo $_POST['frontSectionalDoor3_is'];
+	echo $_POST['frontSectionalDoor4_is'];
+	echo $_POST['BackSectionalDoor1_is'];
+	echo $_POST['BackSectionalDoor2_is'];
+	echo $_POST['BackSectionalDoor3_is'];
+	echo $_POST['BackSectionalDoor4_is'];
+	echo $_POST['leftSectionalDoor1_is'];
+	echo $_POST['leftSectionalDoor2_is'];
+	echo $_POST['leftSectionalDoor3_is'];
+	echo $_POST['leftSectionalDoor4_is'];
+	echo $_POST['rightSectionalDoor1_is'];
+	echo $_POST['rightSectionalDoor2_is'];
+	echo $_POST['rightSectionalDoor3_is'];
+	echo $_POST['rightSectionalDoor4_is'];
+	echo $_POST['FrontWalkinDoor1PositionController'];
+	echo $_POST['FrontWalkinDoor2PositionController'];
+	echo $_POST['FrontWalkinDoor3PositionController'];
+	echo $_POST['FrontWalkinDoor4PositionController'];
+	echo $_POST['BackDoorWalkin1PositionController'];
+	echo $_POST['BackDoorWalkin2PositionController'];
+	echo $_POST['BackDoorWalkin3PositionController'];
+	echo $_POST['BackDoorWalkin4PositionController'];
+	echo $_POST['LeftDoorWalkin1PositionController'];
+	echo $_POST['LeftDoorWalkin2PositionController'];
+	echo $_POST['LeftDoorWalkin3PositionController'];
+	echo $_POST['LeftDoorWalkin4PositionController'];
+	echo $_POST['RightDoorWalkin1PositionController'];
+	echo $_POST['RightDoorWalkin2PositionController'];
+	echo $_POST['RightDoorWalkin3PositionController'];
+	echo $_POST['RightDoorWalkin4PositionController'];
+
+
+
+
+
+
+
+
+
+
+          ['house lengt'],[ length],
+      ['house widht'],[ width],
+      ['house Gutte'],[ Gutter],
+      ['house Slope'],[ Slope],
+      ['house Ridge'],[ Ridge],
+      ['house roof'],[ roof],
+      ['house walls'],[ walls],
+      ['house roofstyle'],[ roofstyle],
+      ['house wallstyle'],[ wallstyle],
+      ['door Color'],[ doorHexColor],
+      ['roof Color'],[ roofhexColor],
+      ['wall color'],[ hexcolor],
+      ['front SectionalDoor1_is'],[ frontSectionalDoor1],
+      ['frontSectionalDoor2_is'],[ frontSectionalDoor2],
+      ['frontSectionalDoor3_is'],[ frontSectionalDoor3],
+      ['frontSectionalDoor4_is'],[ frontSectionalDoor4],
+      ['BackSectionalDoor1_is'],[ BackSectionalDoor1],
+      ['BackSectionalDoor2_is'],[ BackSectionalDoor2],
+      ['BackSectionalDoor3_is'],[ BackSectionalDoor3],
+      ['BackSectionalDoor4_is'],[ BackSectionalDoor4],
+      ['leftSectionalDoor1_is'],[ leftSectionalDoor1],
+      ['leftSectionalDoor2_is'],[ leftSectionalDoor2],
+      ['leftSectionalDoor3_is'],[ leftSectionalDoor3],
+      ['leftSectionalDoor4_is'],[ leftSectionalDoor4],
+      ['rightSectionalDoor1_is'],[ rightSectionalDoor1],
+      ['rightSectionalDoor2_is'],[ rightSectionalDoor2],
+      ['rightSectionalDoor3_is'],[ rightSectionalDoor3],
+      ['rightSectionalDoor4_is'],[ rightSectionalDoor4],
+      ['FrontWalkinDoor1PositionController'],[ FrontWalkinDoor1PositionController],
+      ['FrontWalkinDoor2PositionController'],[ FrontDoorWalkin2PositionController],
+      ['FrontWalkinDoor3PositionController'],[ FrontDoorWalkin3PositionController],
+      ['FrontWalkinDoor4PositionController'],[ FrontDoorWalkin4PositionController],
+      ['BackDoorWalkin1PositionController'],[ BackDoorWalkin1PositionController],
+      ['BackDoorWalkin2PositionController'],[ BackDoorWalkin2PositionController],
+      ['BackDoorWalkin3PositionController'],[ BackDoorWalkin3PositionController],
+      ['BackDoorWalkin4PositionController'],[ BackDoorWalkin4PositionController],
+      ['LeftDoorWalkin1PositionController'],[ LeftDoorWalkin1PositionController],
+      ['LeftDoorWalkin2PositionController'],[ LeftDoorWalkin2PositionController],
+      ['LeftDoorWalkin3PositionController'],[ LeftDoorWalkin3PositionController],
+      ['LeftDoorWalkin4PositionController'],[ LeftDoorWalkin4PositionController],
+      ['RightDoorWalkin1PositionController'],[ RightDoorWalkin1PositionController],
+      ['RightDoorWalkin2PositionController'],[ RightDoorWalkin2PositionController],
+      ['RightDoorWalkin3PositionController'],[ RightDoorWalkin3PositionController],
+      ['RightDoorWalkin4PositionController'],[ RightDoorWalkin4PositionController],
+
+
+
+
+
+
+
+
+
+      // if (isset($_POST['email'])) {
+	
+// 	$randStr = md5(rand());
+
+// 	echo $_POST['Solution'];
+// 	echo $_POST['name'];
+// 	echo $_POST['lName'];
+// 	echo $_POST['Company'];
+// 	echo $_POST['Street'];
+// 	echo $_POST['HouseNumber'];
+// 	echo $_POST['Postcode'];
+// 	echo $_POST['Place'];
+// 	echo $_POST['Phone'];
+// 	echo $_POST['email'];
+// 	echo $_POST['length'];
+// 	echo $_POST['width'];
+// 	echo $_POST['Gutter'];
+// 	echo $_POST['Slope'];
+// 	echo $_POST['Ridge'];
+// 	echo $_POST['roof'];
+// 	echo $_POST['walls'];
+// 	echo $_POST['roofstyle'];
+// 	echo $_POST['wallstyle'];
+// 	echo $_POST['bigbox'];
+// 	echo $_POST['construction'];
+// 	if ( 0 < $_FILES['excelFile']['error'] ) {
+//         echo 'Error:';
+//     }
+//     else {
+// 		move_uploaded_file($_FILES['excelFile']['tmp_name'], 'uploads/' . $randStr.'.xlsx');
+// 		echo 'file uploaded';
+//     }
+// 	echo $_POST['doorHexColor'];
+// 	echo $_POST['roofhexColor'];
+// 	echo $_POST['wallcolor'];
+
+
+
+// }else{
+// 	echo 'Email is required';
+// }
+
+
+
+
+
+
+
+
+
+  var wb = XLSX.utils.book_new();
+    wb.Props = {
+            Title: `${name} qoute house value`,
+            Subject: "Test",
+            Author: "Supreme animation",
+            CreatedDate: moment().format('MMM D, YYYY')
+    };
+    
+    wb.SheetNames.push("Test Sheet");
+    var ws_data = [
+      ['house lengt', length],
+      ['house widht', width],
+      ['house Gutte', Gutter],
+      ['house Slope', Slope],
+      ['house Ridge', Ridge],
+      ['house roof', roof],
+      ['house walls', walls],
+      ['house roofstyle', roofstyle],
+      ['house wallstyle', wallstyle],
+      ['door Color', doorHexColor],
+      ['roof Color', roofhexColor],
+      ['wall color', hexcolor],
+      
+      ['Front Sectional Door 1 is', frontSectionalDoor1,'Front Sectional Door 1 Height', $('#FrontDoorHeight').val(), 'Front Sectional Door 1 Width', $('#FrontDoorWidth').val(), 'Front Sectional Door 1 position', $('.FrontDoorPosition').val(), 'Distance from right', $('#FrontdoorRightDistance').val(),'Distance from left',$('#FrontdoorLeftDistance').val()],
+      ['Front Sectional Door 2 is', frontSectionalDoor2,'Front Sectional Door 2 Height', $('#FrontDoorHeight2').val(),'Front Sectional Door 2 Width', $('#FrontDoorWidth2').val(), 'Front Sectional Door 2 position', $('.FrontDoor2Position').val(), 'Distance from right', $('#Frontdoor2RightDistance').val(),'Distance from left',$('#Frontdoor2LeftDistance').val()],
+      ['Front Sectional Door 3 is', frontSectionalDoor3,'Front Sectional Door 3 Height', $('#FrontDoorHeight3').val(),'Front Sectional Door 3 Width', $('#FrontDoorWidth3').val(), 'Front Sectional Door 3 position', $('.FrontDoor3Position').val(), 'Distance from right', $('#Frontdoor3RightDistance').val(),'Distance from left',$('#Frontdoor3LeftDistance').val()],
+      ['Front Sectional Door 4 is', frontSectionalDoor4,'Front Sectional Door 4 Height', $('#FrontDoorHeight4').val(),'Front Sectional Door 4 Width', $('#FrontDoorWidth4').val(), 'Front Sectional Door 4 position', $('.FrontDoor4Position').val(), 'Distance from right', $('#Frontdoor4RightDistance').val(),'Distance from left',$('#Frontdoor4LeftDistance').val()],
+      
+      ['Back Sectional Door 1 is', BackSectionalDoor1,'Back Sectional Door 1 Height', $('#BackDoorHeight').val(), 'Back Sectional Door 1 Width', $('#BackDoorWidth').val(), 'Back Sectional Door 1 position', $('.BackDoorPosition').val(), 'Distance from right', $('#BackdoorRightDistance').val(),'Distance from left',$('#BackdoorLeftDistance').val()],
+      ['Back Sectional Door 2 is', BackSectionalDoor2,'Back Sectional Door 2 Height', $('#BackDoorHeight2').val(), 'Back Sectional Door 2 Width', $('#BackDoorWidth2').val(), 'Back Sectional Door 2 position', $('.BackDoor2Position').val(), 'Distance from right', $('#Backdoor2RightDistance').val(),'Distance from left',$('#Backdoor2LeftDistance').val()],
+      ['Back Sectional Door 3 is', BackSectionalDoor3,'Back Sectional Door 3 Height', $('#BackDoorHeight3').val(), 'Back Sectional Door 3 Width', $('#BackDoorWidth3').val(), 'Back Sectional Door 3 position', $('.BackDoor3Position').val(), 'Distance from right', $('#Backdoor3RightDistance').val(),'Distance from left',$('#Backdoor3LeftDistance').val()],
+      ['Back Sectional Door 4 is', BackSectionalDoor4,'Back Sectional Door 4 Height', $('#BackDoorHeight4').val(), 'Back Sectional Door 4 Width', $('#BackDoorWidth4').val(), 'Back Sectional Door 4 position', $('.BackDoor4Position').val(), 'Distance from right', $('#Backdoor4RightDistance').val(),'Distance from left',$('#Backdoor4LeftDistance').val()],
+      
+      ['Left Sectional Door 1 is', leftSectionalDoor1,'Left Sectional Door 1 Height', $('#LeftDoorHeight').val(), 'Left Sectional Door 1 Width', $('#LeftDoorWidth').val(),  'Left Sectional Door 1 position', $('.LeftDoorPosition').val(), 'Distance from right', $('#LeftdoorRightDistance').val(),'Distance from left',$('#LeftdoorLeftDistance').val()],
+      ['Left Sectional Door 2 is', leftSectionalDoor2,'Left Sectional Door 2 Height', $('#LeftDoorHeight2').val(), 'Left Sectional Door 2 Width', $('#LeftDoorWidth2').val(),  'Left Sectional Door 2 position', $('.LeftDoor2Position').val(), 'Distance from right', $('#Leftdoor2RightDistance').val(),'Distance from left',$('#Leftdoor2LeftDistance').val()],
+      ['Left Sectional Door 3 is', leftSectionalDoor3,'Left Sectional Door 3 Height', $('#LeftDoorHeight3').val(), 'Left Sectional Door 3 Width', $('#LeftDoorWidth3').val(), 'Left Sectional Door 3 position', $('.LeftDoor3Position').val(), 'Distance from right', $('#Leftdoor3RightDistance').val(),'Distance from left',$('#Leftdoor3LeftDistance').val()],
+      ['Left Sectional Door 4 is', leftSectionalDoor4,'Left Sectional Door 4 Height', $('#LeftDoorHeight4').val(), 'Left Sectional Door 4 Width', $('#LeftDoorWidth4').val(),  'Left Sectional Door 4 position', $('.LeftDoor4Position').val(), 'Distance from right', $('#Leftdoor4RightDistance').val(),'Distance from left',$('#Leftdoor4LeftDistance').val()],
+      ['Right Sectional Door 1 is', rightSectionalDoor1,'Right Sectional Door 1 Height', $('#RightDoorHeight').val(), 'Right Sectional Door 1 Width', $('#RightDoorWidth').val(),  'Right Sectional Door 1 position', $('.RightDoorPosition').val(), 'Distance from right', $('#RightdoorRightDistance').val(),'Distance from left',$('#RightdoorLeftDistance').val()],
+      ['Right Sectional Door 2 is', rightSectionalDoor2,'Right Sectional Door 2 Height', $('#RightDoorHeight2').val(), 'Right Sectional Door 2 Width', $('#RightDoorWidth2').val(),  'Right Sectional Door 2 position', $('.RightDoor2Position').val(), 'Distance from right', $('#Rightdoor2RightDistance').val(),'Distance from left',$('#Rightdoor2LeftDistance').val()],
+      ['Right Sectional Door 3 is', rightSectionalDoor3,'Right Sectional Door 3 Height', $('#RightDoorHeight3').val(), 'Right Sectional Door 3 Width', $('#RightDoorWidth3').val(),  'Right Sectional Door 3 position', $('.RightDoor3Position').val(), 'Distance from right', $('#Rightdoor3RightDistance').val(),'Distance from left',$('#Rightdoor3LeftDistance').val()],
+      ['Right Sectional Door 4 is', rightSectionalDoor4,'Right Sectional Door 4 Height', $('#RightDoorHeight4').val(), 'Right Sectional Door 4 Width', $('#RightDoorWidth4').val(),  'Right Sectional Door 4 position', $('.RightDoor4Position').val(), 'Distance from right', $('#Rightdoor4RightDistance').val(),'Distance from left',$('#Rightdoor4LeftDistance').val()],
+      ['Front Walking Door 1 is', frontWalkingDoor1, 'Front Walking Door 1 position', $('.FrontWalkinDoorPosition').val(), 'Distance from right', $('#FrontWalkindoorRightDistance').val(),'Distance from left',$('#FrontWalkindoorLeftDistance').val()],
+      ['Front Walking Door 2 is', frontWalkingDoor2, 'Front Walking Door 2 position', $('.FrontWalkinDoorPosition2').val(), 'Distance from right', $('#FrontWalkindoorRightDistance2').val(),'Distance from left',$('#FrontWalkindoorLeftDistance2').val()],
+      ['Front Walking Door 3 is', frontWalkingDoor3, 'Front Walking Door 3 position', $('.FrontWalkinDoorPosition3').val(), 'Distance from right', $('#FrontWalkindoorRightDistance3').val(),'Distance from left',$('#FrontWalkindoorLeftDistance3').val()],
+      ['Front Walking Door 4 is', frontWalkingDoor4, 'Front Walking Door 4 position', $('.FrontWalkinDoorPosition4').val(), 'Distance from right', $('#FrontWalkindoorRightDistance4').val(),'Distance from left',$('#FrontWalkindoorLeftDistance4').val()],
+      ['Back Walking Door 1 is', BackWalkingDoor1, 'Back Walking Door 1 position', $('.BackWalkinDoorPosition1').val(), 'Distance from right', $('#BackWalkindoorRightDistance1').val(),'Distance from left',$('#BackWalkindoorLeftDistance1').val()],
+      ['Back Walking Door 2 is', BackWalkingDoor2, 'Back Walking Door 2 position', $('.BackWalkinDoorPosition2').val(), 'Distance from right', $('#BackWalkindoorRightDistance2').val(),'Distance from left',$('#BackWalkindoorLeftDistance2').val()],
+      ['Back Walking Door 3 is', BackWalkingDoor3, 'Back Walking Door 3 position', $('.BackWalkinDoorPosition3').val(), 'Distance from right', $('#BackWalkindoorRightDistance3').val(),'Distance from left',$('#BackWalkindoorLeftDistance3').val()],
+      ['Back Walking Door 4 is', BackWalkingDoor4, 'Back Walking Door 4 position', $('.BackWalkinDoorPosition4').val(), 'Distance from right', $('#BackWalkindoorRightDistance4').val(),'Distance from left',$('#BackWalkindoorLeftDistance4').val()],
+      ['Left Walking Door 1 is', leftWalkingDoor1, 'Left Walking Door 1 position', $('.LeftWalkinDoorPosition1').val(), 'Distance from right', $('#LeftWalkindoorRightDistance1').val(),'Distance from left',$('#LeftWalkindoorLeftDistance1').val()],
+      ['Left Walking Door 2 is', leftWalkingDoor2, 'Left Walking Door 2 position', $('.LeftWalkinDoorPosition2').val(), 'Distance from right', $('#LeftWalkindoorRightDistance2').val(),'Distance from left',$('#LeftWalkindoorLeftDistance2').val()],
+      ['Left Walking Door 3 is', leftWalkingDoor3, 'Left Walking Door 3 position', $('.LeftWalkinDoorPosition3').val(), 'Distance from right', $('#LeftWalkindoorRightDistance3').val(),'Distance from left',$('#LeftWalkindoorLeftDistance3').val()],
+      ['Left Walking Door 4 is', leftWalkingDoor4, 'Left Walking Door 4 position', $('.LeftWalkinDoorPosition4').val(), 'Distance from right', $('#LeftWalkindoorRightDistance4').val(),'Distance from left',$('#LeftWalkindoorLeftDistance4').val()],
+      ['Right Walking Door 1 is', rightWalkingDoor1, 'Right Walking Door 1 position', $('.RightWalkinDoorPosition1').val(), 'Distance from right', $('#RightWalkindoorRightDistance1').val(),'Distance from left',$('#RightWalkindoorLeftDistance1').val()],
+      ['Right Walking Door 2 is', rightWalkingDoor2, 'Right Walking Door 2 position', $('.RightWalkinDoorPosition2').val(), 'Distance from right', $('#RightWalkindoorRightDistance2').val(),'Distance from left',$('#RightWalkindoorLeftDistance2').val()],
+      ['Right Walking Door 3 is', rightWalkingDoor3, 'Right Walking Door 3 position', $('.RightWalkinDoorPosition3').val(), 'Distance from right', $('#RightWalkindoorRightDistance3').val(),'Distance from left',$('#RightWalkindoorLeftDistance3').val()],
+      ['Right Walking Door 4 is', rightWalkingDoor4, 'Right Walking Door 4 position', $('.RightWalkinDoorPosition4').val(), 'Distance from right', $('#RightWalkindoorRightDistance4').val(),'Distance from left',$('#RightWalkindoorLeftDistance4').val()],
+      ];
+   
+    var ws = XLSX.utils.aoa_to_sheet(ws_data);
+    wb.Sheets["Test Sheet"] = ws;
+    var wbout = XLSX.write(wb, {bookType:'xlsx',  type: 'binary'});
+    function s2ab(s) {
+        var buf = new ArrayBuffer(s.length);
+        var view = new Uint8Array(buf);
+        for (var i=0; i<s.length; i++) view[i] = s.charCodeAt(i) & 0xFF;
+        return buf; 
+    }
+            //saveAs(new Blob([s2ab(wbout)],{type:"application/octet-stream"}), `${name}.xlsx`);

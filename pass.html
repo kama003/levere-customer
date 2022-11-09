@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="range" onchange="oldVal(this)" oninput="CurrentVal(this)" min="0" value="0" max="10" step="1" name="" id="test">
+  <br>
+  Current : <span id="current">0</span>
+  <br>
+  Old : <span id="old">0</span>
+  <br>
+
+  <script>
+    const currentValText = document.getElementById("current");
+    const oldValText = document.getElementById("old");
+    let num = 10.5;
+    let oldNum = 0, currentNum = 0;
+    let str = "";
+    function oldVal(e){
+      oldNum = e.value;
+      oldValText.innerHTML = e.value;
+    }
+    function CurrentVal(e){
+      currentNum = e.value;
+      if(oldNum < currentNum){
+        str = "increase";
+      }else{
+        str = "decrease";
+      }
+      currentValText.innerHTML = e.value;
+    }
+    setInterval(() => {
+      console.log({str});
+    }, 1000);
+  </script>
+</body>
+</html> 
